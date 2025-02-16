@@ -11,7 +11,7 @@ import { MODEL } from "@/constants/model";
 import { fileToGenerativePart } from "@/libs/generateFileAI";
 
 const genAI = new GoogleGenerativeAI(
-  process.env.NEXT_PUBLIC_GOOGLE_GEMINI_API_KEY!
+  process.env.NEXT_PUBLIC_GOOGLE_API_KEY!
 );
 
 export default function ImageUpload({
